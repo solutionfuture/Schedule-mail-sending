@@ -1,0 +1,74 @@
+* {
+  	box-sizing: border-box;
+  	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	font-size: 16px;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  	background-color: #FFFFFF;
+  	margin: 0;
+    padding-top:20px;
+}
+.content {
+  	width: 90%;
+  	margin: 0 auto;
+}
+.content h4 {
+  	border-bottom: 1px dashed #ebebeb;
+}
+.border-full{
+    border: 1px solid #ebebeb;
+    color: #666666;
+    padding: 20px 0;
+    height: 95vh;
+}
+.newcreatebtn{
+  position: absolute;
+  margin-left: 55%;
+  top:5;
+}
+ul li.list-group-item:hover{
+  background-color: #d0d1d3;
+}
+ul li.list-group-item.active{
+  background-color: #d9dadd;
+}
+/*.div_successfully{
+  background-color: yellow;
+  color: read;
+}*/
+table{
+  font-size: 10px;
+  margin-bottom: 0!important;
+}
+table tbody tr td{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+table thead tr th{
+    text-align: center;
+}
+
+.pagination {
+ display: inline-block;
+ margin: 0px 0!important;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  display: block!important;
+}
+
+.pagination a:hover:not(.active) { background-color: #ddd; }
