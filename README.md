@@ -8,7 +8,7 @@ This projected designed for [YoaStar PBX series 100](https://www.yeastar.com/s10
 1. install xampp or wamp(correctly apache and php)
 2. go to apache document root directory(htdocs for xampp, www for wamp) and run this command
   ``` bash
-  $ git clone https://github.com/solutionok/YoaStar.PBX.Report.Scheduler.git
+  $ git clone https://github.com/solutionfuture/YoaStar.PBX.Report.Scheduler.git
   $ cd YoaStar.PBX.Report.Scheduler
   $ composer install
   ``` 
